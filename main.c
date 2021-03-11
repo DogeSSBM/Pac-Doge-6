@@ -6,6 +6,11 @@ typedef struct{
 	char** tile;
 }Map;
 
+void drawMap(const Map map)
+{
+	
+}
+
 int main(int argc, char const *argv[])
 {
 	Map map = {
