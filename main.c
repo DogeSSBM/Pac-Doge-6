@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 		.tile = NULL
 	};
 
-	const Length window = coordMul(, SCALE);
+	const Length window = coordMul(map.len, SCALE);
 	init(window);
 
 	while(1){
